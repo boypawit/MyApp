@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void showtext(View view){
-        String msg = "Hello, I am Pawit Termjukul";
+        String msg = "Hello, I am Pawit Termjirakul";
         Toast toast = Toast.makeText(this,msg,Toast.LENGTH_SHORT);
         toast.show();
 

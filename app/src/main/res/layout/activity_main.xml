@@ -61,10 +61,10 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             app:srcCompat="@drawable/boy1"
-            android:layout_marginBottom="46dp"
-            android:layout_above="@+id/textView2"
+            android:layout_alignParentTop="true"
             android:layout_alignRight="@+id/button3"
-            android:layout_alignEnd="@+id/button3" />
+            android:layout_alignEnd="@+id/button3"
+            android:layout_marginTop="55dp" />
 
         <TextView
             android:id="@+id/textView3"
