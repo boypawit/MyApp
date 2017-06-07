@@ -4,28 +4,80 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     tools:context="com.example.boyvi.myapp.MainActivity">
 
 
     <RelativeLayout
-        android:layout_width="364dp"
-        android:layout_height="504dp"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="-1dp">
+        android:layout_width="445dp"
+        android:layout_height="657dp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="-4dp">
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="119dp"
-            android:layout_marginRight="119dp"
+            android:layout_marginBottom="62dp"
             android:onClick="showtext"
-            android:text="Button"
+            android:text="show"
+            android:background="@color/colorpawit"
             tools:layout_editor_absoluteX="136dp"
-            tools:layout_editor_absoluteY="201dp" />
+            tools:layout_editor_absoluteY="201dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginStart="33dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="176dp"
+            android:text="นาย ปวิช เติมจิรกุล"
+            android:textSize="20dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:text="รหัสนักศึกษา 5711405593"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="104dp"
+            android:layout_marginStart="104dp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/boy1"
+            android:layout_marginBottom="46dp"
+            android:layout_above="@+id/textView2"
+            android:layout_alignRight="@+id/button3"
+            android:layout_alignEnd="@+id/button3" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="เพศ ชาย"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignLeft="@+id/imageView9"
+            android:layout_alignStart="@+id/imageView9" />
+
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
